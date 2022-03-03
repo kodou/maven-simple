@@ -17,4 +17,11 @@ public class AppTest
     {
         assertTrue( true );
     }
+
+    @Test
+    public void addStringIntsShouldReturnSumString() { assertTrue(App.addStringInts("3", "4").equals("7")); }
+
+    @Test
+    public void addShouldReturnSum() { assertTrue(App.add(3, 4) == 7);}
+
 }
